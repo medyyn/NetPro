@@ -74,6 +74,8 @@ menu{
     justify-content: space-between;
     font-weight: 700;
     font-size: 16px;
+}
+.secondNavbar > menu > div > a{
     color: #435072;
 }
 .information{
@@ -307,4 +309,156 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 125px;
+}
+
+
+/* ABOUT CSS START */
+
+.about{
+    background-image: url(../img/about.bg.png);
+    padding: 45px 606px 61px 606px;
+}
+.about > h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+}
+.about > h4 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 18px;
+    font-weight: 500;
+}
+.texts{
+    padding: 116px 100px 120px 300px;
+}
+.lorem1{
+    display: flex;
+    align-items: center;
+    gap: 105px;
+}
+.lorem2{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    gap: 105px;
+}
+.netpro-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #435072;
+}
+.netpro-subtitle{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 400;
+    color: #606F84;
+}
+
+.all{
+    padding: 71px 100px 100px 300px;
+    display: flex;
+    gap: 45px;
+}
+
+.category-card {
+    width: 356px;
+    height: 492px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.category-header {
+    background-color: #435072;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 43px 27px 43px 27px;
+    text-align: left;
+}
+
+.category-list {
+    list-style-type: none;
+    margin: 0;
+    font-size: 18px;
+    padding: 20px 43px 20px 43px;
+    line-height: 2;
+    color: #435072;
+}
+
+.category-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+.category-list li:last-child {
+    border-bottom: none;
+}
+
+
+.product-card {
+    display: flex;
+    background-color: #F4F4F4;
+    border-radius: 8px;
+    box-shadow: 0px 3px 8px 0px #161F3526;
+    padding: 20px;
+    width: 837px;
+    height: 192px;
+    align-items: center;
+}
+
+.product-details {
+    flex: 2;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.product-details h2 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #435072;
+}
+
+.product-details p {
+    font-size: 14px;
+    color: #606F84;
+    line-height: 1.5;
+}
+
+.product-download {
+    flex: 1;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    padding-left: 40px;
+}
+
+.product-download span {
+    display: block;
+    font-weight: 400;
+    color: #435072;
+    margin-bottom: 10px;
+}
+
+.download-link {
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    color: #435072;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.download-link img {
+    margin-right: 8px;
+}
+.products-cards{
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
